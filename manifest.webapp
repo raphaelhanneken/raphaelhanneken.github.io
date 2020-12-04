@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "Raphael Hanneken",
+  "launch_path": "/index.html",
+  "description": "I write fast, readable, gluten free code. Guaranteed.",
+  "icons": {
+    "128": "/images/touch/icon-128x128.png"
+  },
+  "developer": {
+    "name": "RHN",
+    "url": "www.raphaelhanneken.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Raphael Hanneken",
+      "description": "I write fast, readable, gluten free code. Guaranteed."
+    }
+  }
+}
