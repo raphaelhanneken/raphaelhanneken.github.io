@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "name": "Raphael Hanneken",
   "launch_path": "/index.html",
-  "description": "I write fast, readable, gluten free code. Guaranteed.",
+  "description": "I write gluten free software. Guaranteed.",
   "icons": {
     "128": "/images/touch/icon-128x128.png"
   },
