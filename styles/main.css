@@ -773,6 +773,7 @@ img {
 
 .page-title {
     line-height: 1.1;
+    font-size: 3.3rem;
     font-weight: 300;
     -webkit-animation-name: b;
     animation-name: b;
@@ -790,7 +791,6 @@ img {
 
 .page-title,
 .page-title h1 {
-    font-size: 3rem;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden
 }
@@ -800,6 +800,7 @@ img {
     background-position: 0;
     background-repeat: no-repeat;
     background-size: contain;
+    font-size: inherit;
     line-height: 3.5;
     margin: 1rem 0 .3rem;
     text-transform: lowercase;
