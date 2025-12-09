@@ -772,8 +772,7 @@ img {
 }
 
 .page-title {
-    line-height: 1.1;
-    font-size: 3.3rem;
+    line-height: 1.0;
     font-weight: 300;
     -webkit-animation-name: b;
     animation-name: b;
@@ -801,8 +800,8 @@ img {
     background-repeat: no-repeat;
     background-size: contain;
     font-size: inherit;
-    line-height: 3.5;
-    margin: 1rem 0 .3rem;
+    line-height: 2;
+    margin: 1rem 0;
     text-transform: lowercase;
     text-indent: -1000rem;
     white-space: nowrap;
@@ -820,23 +819,33 @@ img {
     animation-fill-mode: both
 }
 
-@media (max-width:1180px) {
-    .page-title h1 {
-        line-height: 2
-    }
-}
-
-@media (orientation:portrait) {
-    .page-title h1 {
-        font-size: 3rem;
-        line-height: 2;
-    }
-}
-
-@media (max-width:639px) {
+@media (orientation: portrait) {
     .page-title {
-        margin-top: 10vh;
+        font-size: 5vw;
     }
+}
+
+@media (orientation: landscape) {
+    .page-title {
+        font-size: 3.5vw;
+    }
+}
+
+@media (max-width: 40rem) {
+    .page-title {
+        margin-top: 8vh;
+        font-size: 6vw;
+    }
+
+    .moon {
+        display: none;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 811px) and (max-width: 1100px) {
+    .page-title {
+        font-size: 3.3vw;
+    } 
 }
 
 .page-title span {
